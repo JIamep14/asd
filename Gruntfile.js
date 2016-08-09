@@ -23,7 +23,7 @@ module.exports = function (grunt) {
                 tasks: 'concat:dev'
             },
             templates: {
-                files: 'resources/assets/js/templates/**/*.tpl',
+                files: 'resources/assets/templates/**/*.tpl',
                 tasks: 'handlebars'
             }
         },
